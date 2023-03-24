@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    z-index: 1;
+    right: 0;
+    border-radius: 4px;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 0;
+    white-space: nowrap;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 25rem;
+    background-color: #f5f5f5;
+}
+
+.about img {
+    max-width: 330px;
+    border-radius: 10%;
+}
+
+.about-text {
+    width: 50%;
+    text-align: left;
+}
+
+
+.skills {
+    padding: 3rem;
+    text-align: center;
+    background-color: #dedede;
+}
+
+.skills img {
+    padding-top: 3rem;
+    height: 100px;
+    margin: 0.5rem;
+}
+
+.p5-projects {
+    padding: 1rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.p5-projects img {
+    max-width: 200px;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.contact {
+    padding: 2rem;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.contact img {
+    max-width: 40px;
+    margin: 1rem;
+    cursor: pointer;
+}
+.slider {
+    padding-left: 14rem;
+    padding-right: 14rem;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+.slider .slick-center {
+    transform: scale(1.5);
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f5f5f5;
+    text-decoration: underline;
+}
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0077cc;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.impressum {
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 2rem;
+}
